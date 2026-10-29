@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#101014" />
+<meta name="description" content="Daksh Saxena — Creative Developer & Digital Designer. Designing thoughtful digital experiences through code, motion, and visual storytelling." />
+<title>Daksh Saxena — Creative Developer & Digital Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#101014;--panel:#17171d;--panel2:#1d1b25;--text:#f4f1f7;--muted:#a6a0b1;--line:rgba(255,255,255,.12);--purple:#a78bfa;--purple2:#7655df;--max:1160px;--radius:22px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.6;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 78% 8%,rgba(118,85,223,.13),transparent 34%),radial-gradient(ellipse at 0% 50%,rgba(167,139,250,.06),transparent 35%)}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}.mono{font-family:"DM Mono",monospace;text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;color:var(--muted)}.accent{color:var(--purple)}.nav{position:sticky;top:0;z-index:20;background:rgba(16,16,20,.78);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav-inner{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font-family:"Space Grotesk",sans-serif;font-weight:700;letter-spacing:-.06em;font-size:1.2rem}.brand span{color:var(--purple)}.navlinks{display:flex;gap:28px;align-items:center;font-size:.88rem;color:#c7c2cf}.navlinks a{transition:color .2s}.navlinks a:hover{color:var(--purple)}.nav-cta,.button{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid rgba(167,139,250,.5);padding:11px 17px;border-radius:999px;color:var(--text);background:rgba(167,139,250,.09);transition:transform .2s,background .2s,border .2s;cursor:pointer}.nav-cta:hover,.button:hover{transform:translateY(-2px);background:rgba(167,139,250,.18);border-color:var(--purple)}.menu-toggle{display:none;background:none;border:1px solid var(--line);color:white;border-radius:12px;padding:8px 11px}
+.hero{min-height:690px;display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center;padding:84px 0 92px}.eyebrow{display:flex;align-items:center;gap:10px;margin-bottom:26px}.status-dot{width:8px;height:8px;background:#a78bfa;border-radius:50%;box-shadow:0 0 16px #a78bfa}.hero h1{font-family:"Space Grotesk",sans-serif;font-size:clamp(3.6rem,7.4vw,6.7rem);line-height:.94;letter-spacing:-.085em;margin:0;max-width:720px}.hero h1 em{font-style:normal;color:var(--purple)}.hero-copy{font-size:1.06rem;color:#bcb6c8;max-width:540px;margin:28px 0 30px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.button.primary{background:var(--purple);color:#15111f;border-color:var(--purple);font-weight:700}.button.primary:hover{background:#c2b0ff}.button.ghost{background:transparent;border-color:var(--line)}.hero-meta{display:flex;gap:30px;margin-top:42px;padding-top:22px;border-top:1px solid var(--line);max-width:520px}.meta-item strong{display:block;font-size:.9rem;font-weight:600}.meta-item span{display:block;color:var(--muted);font-size:.77rem;margin-top:2px}
+.art-stage{position:relative;min-height:460px;display:grid;place-items:center;isolation:isolate}.art-halo{position:absolute;width:370px;height:370px;border-radius:50%;background:radial-gradient(circle,rgba(167,139,250,.23),rgba(118,85,223,.08) 42%,transparent 70%);filter:blur(10px)}.orb{width:min(370px,80vw);aspect-ratio:1;border-radius:46% 54% 62% 38% / 45% 40% 60% 55%;background:radial-gradient(circle at 30% 25%,#e0d5ff 0%,#a78bfa 14%,#7655df 36%,#302047 64%,#17151e 78%);box-shadow:inset -26px -32px 55px rgba(0,0,0,.65),inset 18px 16px 40px rgba(255,255,255,.2),0 35px 90px rgba(118,85,223,.19);animation:morph 12s ease-in-out infinite alternate;position:relative;z-index:1}.orb:after{content:"";position:absolute;inset:8%;border:1px solid rgba(255,255,255,.23);border-radius:inherit;transform:rotate(-28deg) scale(1.08)}.orbit{position:absolute;width:450px;height:150px;border:1px solid rgba(206,190,255,.4);border-radius:50%;transform:rotate(-32deg);z-index:2}.orbit.two{width:460px;height:200px;transform:rotate(52deg);border-color:rgba(206,190,255,.2)}.float-tag{position:absolute;z-index:3;padding:11px 14px;border:1px solid rgba(255,255,255,.16);background:rgba(25,23,33,.76);backdrop-filter:blur(12px);border-radius:14px;font-size:.78rem;box-shadow:0 10px 30px rgba(0,0,0,.18)}.float-tag b{color:var(--purple);font-weight:600}.tag-one{top:52px;right:0}.tag-two{bottom:75px;left:-5px}.tag-three{bottom:15px;right:34px}@keyframes morph{0%{border-radius:46% 54% 62% 38% / 45% 40% 60% 55%;transform:rotate(-10deg) scale(.97)}100%{border-radius:58% 42% 42% 58% / 52% 62% 38% 48%;transform:rotate(12deg) scale(1.02)}}
+.marquee{border-block:1px solid var(--line);overflow:hidden;padding:18px 0;background:rgba(255,255,255,.015)}.marquee-track{display:flex;gap:30px;width:max-content;animation:marquee 28s linear infinite}.marquee span{font-family:"Space Grotesk",sans-serif;font-size:1.02rem;letter-spacing:-.03em;color:#bcb6c8}.marquee i{color:var(--purple);font-style:normal}@keyframes marquee{to{transform:translateX(-50%)}}
+section{padding:110px 0}.section-head{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:42px}.section-head h2{font-family:"Space Grotesk",sans-serif;font-size:clamp(2.5rem,5vw,4.5rem);line-height:1;letter-spacing:-.075em;margin:12px 0 0}.section-head p{color:var(--muted);max-width:350px;margin:0;font-size:.95rem}.projects-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.project{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:transform .35s,border-color .35s;cursor:pointer}.project:hover{transform:translateY(-6px);border-color:rgba(167,139,250,.55)}.project-visual{height:300px;position:relative;overflow:hidden;display:grid;place-items:center;background:#201b2c}.project-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(0,0,0,.28))}.visual-ai{background:radial-gradient(circle at 65% 35%,#a78bfa 0,transparent 28%),linear-gradient(135deg,#262039,#131219 70%)}.dashboard{width:78%;height:76%;background:rgba(20,18,28,.82);border:1px solid rgba(255,255,255,.24);border-radius:15px;transform:rotate(-5deg);padding:16px;box-shadow:0 25px 55px #09080d}.dash-top{display:flex;gap:5px;margin-bottom:18px}.dash-top i{width:6px;height:6px;border-radius:50%;background:#a78bfa}.dash-title{font-family:"Space Grotesk";font-size:1.3rem;letter-spacing:-.05em}.dash-line{height:7px;border-radius:8px;background:#353044;margin-top:10px;width:80%}.dash-line.short{width:45%}.dash-cards{display:flex;gap:8px;margin-top:20px}.dash-cards span{height:64px;flex:1;border:1px solid #484057;border-radius:8px;background:linear-gradient(135deg,#3b3054,#201b2c)}.visual-motion{background:linear-gradient(140deg,#17151d,#3b2458 60%,#16131c)}.motion-type{font-family:"Space Grotesk";font-weight:700;font-size:clamp(3rem,6vw,5.6rem);line-height:.8;letter-spacing:-.1em;transform:rotate(-9deg);text-shadow:5px 8px 0 rgba(167,139,250,.32);z-index:1}.motion-type span{color:#c9b7ff;display:block;margin-left:48px}.motion-ring{position:absolute;width:240px;height:240px;border:1px solid rgba(213,199,255,.7);border-radius:50%;box-shadow:0 0 50px rgba(167,139,250,.18)}.visual-ui{background:#d8d0f5;color:#1c1729}.phone{width:155px;height:235px;border:5px solid #221a32;border-radius:24px;background:#f7f3ff;box-shadow:0 22px 40px #2e214e;transform:rotate(8deg);padding:14px;position:relative;z-index:2}.phone-pill{height:5px;width:45px;border-radius:10px;background:#322345;margin:0 auto 16px}.phone h4{font-family:"Space Grotesk";font-size:1.15rem;line-height:1.05;margin:0 0 12px;letter-spacing:-.05em}.phone-card{height:75px;border-radius:12px;background:linear-gradient(135deg,#c7b3ff,#7350c6);margin-bottom:10px}.phone-lines{height:5px;background:#d5cce7;border-radius:4px;margin:6px 0}.visual-3d{background:radial-gradient(circle at 50% 45%,#44306b,#191620 68%)}.cube{width:140px;height:140px;position:relative;transform:rotateX(-27deg) rotateY(38deg);transform-style:preserve-3d;animation:spin 14s linear infinite}.cube div{position:absolute;width:140px;height:140px;border:1px solid rgba(255,255,255,.55);background:linear-gradient(135deg,rgba(194,174,255,.55),rgba(80,54,135,.3));backdrop-filter:blur(5px)}.cube .front{transform:translateZ(70px)}.cube .back{transform:rotateY(180deg) translateZ(70px)}.cube .right{transform:rotateY(90deg) translateZ(70px)}.cube .left{transform:rotateY(-90deg) translateZ(70px)}.cube .top{transform:rotateX(90deg) translateZ(70px)}.cube .bottom{transform:rotateX(-90deg) translateZ(70px)}@keyframes spin{to{transform:rotateX(333deg) rotateY(398deg)}}.project-info{padding:23px 24px 25px}.project-top{display:flex;justify-content:space-between;align-items:center;gap:16px}.project h3{font-family:"Space Grotesk";font-size:1.45rem;letter-spacing:-.045em;margin:0}.project-number{font-family:"DM Mono";font-size:.72rem;color:var(--muted)}.project-info p{color:var(--muted);margin:10px 0 18px;font-size:.92rem;max-width:520px}.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{border:1px solid var(--line);padding:5px 9px;border-radius:999px;font-size:.72rem;color:#c6c0d0}.project-link{display:flex;justify-content:space-between;align-items:center;margin-top:20px;color:var(--purple);font-size:.83rem}.project-link span:last-child{font-size:1.1rem;transition:transform .2s}.project:hover .project-link span:last-child{transform:translate(3px,-3px)}
+.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:start}.about-stamp{aspect-ratio:1;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(145deg,#201a2d,#141319);display:grid;place-items:center;position:relative;overflow:hidden}.stamp-core{width:190px;height:190px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 30% 25%,#d5c7ff,#8a68e7 38%,#332447 73%);font-family:"Space Grotesk";font-size:4.5rem;font-weight:700;letter-spacing:-.12em;color:#1b1428;box-shadow:inset -18px -22px 35px rgba(0,0,0,.4),0 20px 70px rgba(118,85,223,.2)}.stamp-caption{position:absolute;bottom:18px;left:20px;right:20px;display:flex;justify-content:space-between}.about-copy h3{font-family:"Space Grotesk";font-size:clamp(1.8rem,3vw,2.7rem);letter-spacing:-.065em;line-height:1.12;margin:0 0 22px}.about-copy p{color:var(--muted);font-size:1rem}.about-copy p strong{color:var(--text);font-weight:600}.skill-cloud{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.skill{padding:10px 14px;background:var(--panel);border:1px solid var(--line);border-radius:10px;font-size:.85rem;transition:all .2s}.skill:hover{border-color:var(--purple);background:rgba(167,139,250,.09);transform:translateY(-2px)}
+.process{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.process-card{padding:24px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,.01))}.process-card .num{font-family:"DM Mono";color:var(--purple);font-size:.75rem}.process-card h3{font-family:"Space Grotesk";font-size:1.25rem;letter-spacing:-.04em;margin:20px 0 8px}.process-card p{color:var(--muted);font-size:.9rem;margin:0}
+.contact-panel{padding:clamp(28px,6vw,68px);border:1px solid rgba(167,139,250,.3);border-radius:28px;background:radial-gradient(ellipse at 100% 0%,rgba(118,85,223,.2),transparent 45%),var(--panel);position:relative;overflow:hidden}.contact-panel h2{font-family:"Space Grotesk";font-size:clamp(3rem,7vw,6.5rem);line-height:.95;letter-spacing:-.09em;margin:18px 0 22px;max-width:800px}.contact-panel p{color:var(--muted);max-width:490px;margin-bottom:28px}.contact-actions{display:flex;gap:12px;flex-wrap:wrap}.contact-email{display:inline-flex;align-items:center;gap:9px;border-bottom:1px solid rgba(167,139,250,.6);padding:8px 0;color:#d9ceff}.footer{padding:26px 0 34px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:20px;color:var(--muted);font-size:.8rem}.footer-links{display:flex;gap:18px}.footer-links a:hover{color:var(--purple)}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:translateY(0)}.delay-1{transition-delay:.12s}.delay-2{transition-delay:.22s}.delay-3{transition-delay:.32s}.toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,20px);background:#292333;border:1px solid rgba(167,139,250,.5);padding:12px 18px;border-radius:12px;opacity:0;pointer-events:none;transition:.25s;z-index:40;font-size:.88rem}.toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:800px){.wrap{width:min(100% - 32px,var(--max))}.nav-inner{height:68px}.menu-toggle{display:block}.navlinks{display:none;position:absolute;left:16px;right:16px;top:68px;padding:18px;background:#17161d;border:1px solid var(--line);border-radius:16px;flex-direction:column;align-items:stretch;gap:16px}.navlinks.open{display:flex}.nav-cta{display:none}.hero{grid-template-columns:1fr;padding:72px 0 70px;gap:10px;min-height:0}.hero h1{font-size:clamp(3.5rem,13vw,6rem)}.art-stage{min-height:360px;margin-top:0}.orb{width:270px}.orbit{width:340px;height:110px}.orbit.two{width:350px;height:150px}.tag-one{right:3%;top:28px}.tag-two{left:1%;bottom:48px}.tag-three{right:6%;bottom:10px}.hero-meta{gap:20px}.section-head{display:block}.section-head p{margin-top:18px}.projects-grid{grid-template-columns:1fr}.project-visual{height:260px}section{padding:78px 0}.about-grid{grid-template-columns:1fr;gap:28px}.about-stamp{max-width:430px}.process{grid-template-columns:1fr}.contact-panel h2{font-size:clamp(3rem,13vw,5rem)}}
+@media(max-width:430px){.hero-meta{gap:14px}.meta-item strong{font-size:.8rem}.meta-item span{font-size:.68rem}.hero-copy{font-size:.98rem}.project-visual{height:225px}.project-info{padding:20px}.project h3{font-size:1.3rem}.footer{align-items:flex-start;flex-direction:column}.float-tag{font-size:.7rem}.art-stage{min-height:315px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#home" aria-label="Daksh Saxena home">daksh<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="navlinks" id="navLinks" aria-label="Main navigation">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#process">Process</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="#contact">Let’s talk <span>↗</span></a>
+  </div>
+</header>
+<main>
+  <section class="wrap hero" id="home">
+    <div class="hero-content">
+      <div class="eyebrow mono"><span class="status-dot"></span> Independent creator · Open to ideas</div>
+      <h1 class="reveal visible">Ideas into<br><em>experiences.</em></h1>
+      <p class="hero-copy reveal visible delay-1">I’m Daksh — a creative developer and digital designer blending thoughtful interfaces, motion, and visual storytelling to make digital things feel a little more human.</p>
+      <div class="hero-actions reveal visible delay-2">
+        <a class="button primary" href="#work">Explore my work <span>↘</span></a>
+        <a class="button ghost" href="#about">A little about me</a>
+      </div>
+      <div class="hero-meta reveal visible delay-3">
+        <div class="meta-item"><strong>Design × Code</strong><span>One curious mindset</span></div>
+        <div class="meta-item"><strong>Digital-first</strong><span>From concept to craft</span></div>
+        <div class="meta-item"><strong>Always learning</strong><span>Always experimenting</span></div>
+      </div>
+    </div>
+    <div class="art-stage reveal visible delay-2" aria-label="Abstract purple 3D artwork">
+      <div class="art-halo"></div><div class="orb"></div><div class="orbit"></div><div class="orbit two"></div>
+      <div class="float-tag tag-one"><b>01 /</b> Curious by default</div>
+      <div class="float-tag tag-two"><b>Design</b> with intention</div>
+      <div class="float-tag tag-three">Code meets <b>creativity ↗</b></div>
+    </div>
+  </section>
+  <div class="marquee" aria-hidden="true"><div class="marquee-track">
+    <span>Creative development <i>✳</i></span><span>Digital design <i>✳</i></span><span>Motion & image <i>✳</i></span><span>Frontend craft <i>✳</i></span><span>Creative development <i>✳</i></span><span>Digital design <i>✳</i></span><span>Motion & image <i>✳</i></span><span>Frontend craft <i>✳</i></span>
+  </div></div>
+  <section class="wrap" id="work">
+    <div class="section-head reveal"><div><div class="mono">01 / Selected explorations</div><h2>Things I’ve been<br><span class="accent">making.</span></h2></div><p>A mix of interface experiments, motion-led visuals, and playful digital concepts. Each project starts with a question and becomes an excuse to learn something new.</p></div>
+    <div class="projects-grid">
+      <article class="project reveal" tabindex="0" role="button" aria-label="Open details for Orbit AI">
+        <div class="project-visual visual-ai"><div class="dashboard"><div class="dash-top"><i></i><i></i><i></i></div><div class="dash-title">A clearer kind of focus.</div><div class="dash-line"></div><div class="dash-line short"></div><div class="dash-cards"><span></span><span></span><span></span></div></div></div>
+        <div class="project-info"><div class="project-top"><h3>Orbit AI</h3><span class="project-number">CONCEPT / 01</span></div><p>A calmer workspace concept that turns scattered tasks into a focused, adaptive daily flow — designed around clarity instead of clutter.</p><div class="chips"><span class="chip">Product thinking</span><span class="chip">UI/UX</span><span class="chip">AI concept</span></div><div class="project-link"><span>Explore concept</span><span>↗</span></div></div>
+      </article>
+      <article class="project reveal delay-1" tabindex="0" role="button" aria-label="Open details for Afterglow">
+        <div class="project-visual visual-motion"><div class="motion-ring"></div><div class="motion-type">AFTER<span>GLOW.</span></div></div>
+        <div class="project-info"><div class="project-top"><h3>Afterglow</h3><span class="project-number">MOTION STUDY / 02</span></div><p>A visual study in rhythm, contrast, and atmosphere — exploring how typography and movement can give a simple frame a cinematic pulse.</p><div class="chips"><span class="chip">After Effects</span><span class="chip">Art direction</span><span class="chip">Motion</span></div><div class="project-link"><span>View visual direction</span><span>↗</span></div></div>
+      </article>
+      <article class="project reveal" tabindex="0" role="button" aria-label="Open details for Forma">
+        <div class="project-visual visual-ui"><div class="phone"><div class="phone-pill"></div><h4>Make room<br>for good ideas.</h4><div class="phone-card"></div><div class="phone-lines"></div><div class="phone-lines" style="width:68%"></div></div></div>
+        <div class="project-info"><div class="project-top"><h3>Forma</h3><span class="project-number">INTERFACE STUDY / 03</span></div><p>A compact mobile experience built around soft geometry, confident type, and a simple user journey from first glance to first action.</p><div class="chips"><span class="chip">UI design</span><span class="chip">Prototyping</span><span class="chip">Design systems</span></div><div class="project-link"><span>Explore interface</span><span>↗</span></div></div>
+      </article>
+      <article class="project reveal delay-1" tabindex="0" role="button" aria-label="Open details for Soft Geometry">
+        <div class="project-visual visual-3d"><div class="cube"><div class="front"></div><div class="back"></div><div class="right"></div><div class="left"></div><div class="top"></div><div class="bottom"></div></div></div>
+        <div class="project-info"><div class="project-top"><h3>Soft Geometry</h3><span class="project-number">3D EXPERIMENT / 04</span></div><p>An abstract playground of translucent forms, light, and depth — a small exploration of how digital objects can create a tactile mood.</p><div class="chips"><span class="chip">3D design</span><span class="chip">Lighting</span><span class="chip">Visual systems</span></div><div class="project-link"><span>See the experiment</span><span>↗</span></div></div>
+      </article>
+    </div>
+    <p class="mono" style="margin-top:22px">Selected concepts · A growing collection of experiments and works in progress</p>
+  </section>
+  <section class="wrap" id="about">
+    <div class="section-head reveal"><div><div class="mono">02 / The person behind the pixels</div><h2>Creative at heart.<br><span class="accent">Curious by nature.</span></h2></div></div>
+    <div class="about-grid">
+      <div class="about-stamp reveal"><div class="stamp-core">DS</div><div class="stamp-caption mono"><span>DAKSH SAXENA</span><span>EST. ALWAYS</span></div></div>
+      <div class="about-copy reveal delay-1">
+        <h3>I like the space where <span class="accent">design, technology,</span> and storytelling overlap.</h3>
+        <p>I’m a CSE student and independent creator who enjoys turning ideas into things people can see, use, and feel. From editing videos and shaping motion to designing interfaces and building for the web, I’m drawn to the details that make an experience memorable.</p>
+        <p>My approach is equal parts experimentation and intention: understand the problem, find the visual language, then keep refining until everything feels like it belongs. I’m interested in work that is useful, expressive, and just a little unexpected.</p>
+        <div class="mono" style="margin-top:30px">The tools in my creative toolkit</div>
+        <div class="skill-cloud">
+          <span class="skill">Video editing</span><span class="skill">UI/UX design</span><span class="skill">Frontend development</span><span class="skill">Motion graphics</span><span class="skill">Graphic design</span><span class="skill">3D design</span><span class="skill">Premiere Pro</span><span class="skill">After Effects</span><span class="skill">Creative coding</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="wrap" id="process">
+    <div class="section-head reveal"><div><div class="mono">03 / How I work</div><h2>Make it mean<br><span class="accent">something.</span></h2></div><p>Good work is rarely a straight line. This is the loose framework I use to turn a first thought into a considered result.</p></div>
+    <div class="process">
+      <article class="process-card reveal"><span class="num">01 — DISCOVER</span><h3>Start with why.</h3><p>Get curious, ask better questions, and find the real idea hiding underneath the first idea.</p></article>
+      <article class="process-card reveal delay-1"><span class="num">02 — EXPLORE</span><h3>Find the feeling.</h3><p>Sketch, test, prototype, and try unexpected directions until the concept has its own voice.</p></article>
+      <article class="process-card reveal delay-2"><span class="num">03 — REFINE</span><h3>Make it click.</h3><p>Bring the details together, remove what gets in the way, and make the final experience feel effortless.</p></article>
+    </div>
+  </section>
+  <section class="wrap" id="contact">
+    <div class="contact-panel reveal">
+      <div class="mono">04 / Have a good one in mind?</div>
+      <h2>Let’s make<br><span class="accent">something matter.</span></h2>
+      <p>Have an idea, a creative collaboration, or a project that could use a fresh perspective? I’d love to hear what you’re thinking.</p>
+      <div class="contact-actions"><a class="button primary" href="mailto:dakshs2512@gmail.com">Say hello <span>↗</span></a><button class="button ghost" id="copyEmail" type="button">Copy email <span>⧉</span></button></div>
+      <div style="margin-top:24px"><a class="contact-email" href="mailto:dakshs2512@gmail.com">dakshs2512@gmail.com <span>↗</span></a></div>
+    </div>
+  </section>
+</main>
+<footer class="wrap footer">
+  <div>© <span id="year"></span> Daksh Saxena. Made with curiosity <span class="accent">✳</span></div>
+  <div class="footer-links"><a href="https://github.com/dakshs2512-svg" target="_blank" rel="noreferrer">GitHub ↗</a><a href="mailto:dakshs2512@gmail.com">Email ↗</a><a href="#home">Back to top ↑</a></div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite">Email copied to clipboard.</div>
+<script>
+const menuToggle=document.getElementById('menuToggle'),navLinks=document.getElementById('navLinks');
+menuToggle.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuToggle.setAttribute('aria-expanded',String(open));menuToggle.textContent=open?'✕':'☰'});
+navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navLinks.classList.remove('open');menuToggle.setAttribute('aria-expanded','false');menuToggle.textContent='☰'}));
+document.getElementById('year').textContent=new Date().getFullYear();
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal:not(.visible)').forEach(el=>observer.observe(el));
+const toast=document.getElementById('toast');
+document.getElementById('copyEmail').addEventListener('click',async()=>{try{await navigator.clipboard.writeText('dakshs2512@gmail.com');toast.textContent='Email copied to clipboard.'}catch(e){toast.textContent='Email: dakshs2512@gmail.com'}toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),2400)});
+document.querySelectorAll('.project').forEach(card=>{const activate=()=>{const title=card.querySelector('h3').textContent;toast.textContent=title+' — concept case study. Add a live demo or full case-study URL here.';toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),2800)};card.addEventListener('click',activate);card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();activate()}})});
+</script>
+</body>
+</html>
